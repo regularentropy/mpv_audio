@@ -4,6 +4,11 @@ A lightweight desktop application for managing external audio tracks with MPV me
 
 ![Screenshot](scr.png)
 
+## Why does this exist?
+MPV supports drag-and-drop for subtitles but requires command-line flags like ```--audio-file=track.mp3``` for external audio tracks.
+This is fine for a single file, but when you have multiple videos each with their own audio tracks, it becomes tedious.
+This tool automates the process — you select your video files, audio files, hit play, and it handles the integration automatically.
+
 ## Features
 
 - 🎵 **Easy Audio Management**: Quickly attach external audio tracks to your video playback
